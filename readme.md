@@ -43,3 +43,5 @@
 * In the production for radio_button, the string is the label of the button
 
 ###This project also includes a program (calculator.py) that reads a grammar input file (calculator.txt) and generates a working calculator application.
+
+![](calculator.py.png)
