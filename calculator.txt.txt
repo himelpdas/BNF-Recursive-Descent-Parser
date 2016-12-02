@@ -1,0 +1,43 @@
+Window "BNF &nbsp; Calculator &nbsp; (c) &nbsp; 2016 &nbsp; Himel &nbsp; Das" (200, 200) Layout Grid(5, 1, 5, 5):
+  Panel Layout Grid(3, 2, 5, 5):
+    Panel Layout Flow:
+      Label "Input &nbsp; 1";
+      Textfield 20;
+    End;
+    Label "";
+    Label "";
+    Panel Layout Flow:
+      Label "Output";
+      Textfield 20;
+    End;
+    Panel Layout Flow:
+      Label "Input &nbsp; 2";
+      Textfield 20;
+    End;
+    Label "";
+  End;
+  Panel Layout Grid(1, 4, 5, 5):
+    Button "+";
+    Button "-";
+    Button "x";
+    Button "/";
+  End;
+  Panel Layout Grid(1, 3, 5, 5):
+	Label "Choose &nbsp; Input &nbsp; for &nbsp; KeyPad:";
+  	Group Radio "Input &nbsp; 1"; Radio "Input &nbsp; 2"; End;
+  End;
+  Panel Layout Grid(4, 3, 5, 5):
+    Button "7";
+    Button "8";
+    Button "9";
+    Button "4";
+    Button "5";
+    Button "6";
+    Button "1";
+    Button "2";
+    Button "3";
+    Button "B";
+    Button "0";
+    Button "C";
+  End;
+End.
